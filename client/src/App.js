@@ -6,7 +6,7 @@ import Button from "@material-ui/core/Button";
 import {Typography} from "@material-ui/core";
 
 const ipfs = ipfsClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https', });
-//QmQ1xrzGBG9U4AECEWNuAxfs59cELzfznRrJUYVp8jnPPC
+
 function App() {
   const [data, setData] = React.useState(null);
   const [ipfsHash, setIpfsHash] = React.useState('');
