@@ -5,10 +5,6 @@ import UploadButton from "./components/UploadButton";
 function App() {
   const [data, setData] = React.useState(null);
 
-  React.useEffect(() => {
-    console.log(data);
-  }, [data]);
-
   return (
     <div className="App">
       <header className="App-header">
