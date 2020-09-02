@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import UploadButton from "./components/UploadButton";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p>
           PixelEdwlqui
         </p>
+        <UploadButton text="Upload" variant="outlined" color="secondary"/>
       </header>
     </div>
   );
