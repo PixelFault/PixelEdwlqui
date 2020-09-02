@@ -24,6 +24,10 @@
   color: white;
 }
 
+.App-buttons {
+  margin: 1vh;
+}
+
 .App-link {
   color: #61dafb;
 }

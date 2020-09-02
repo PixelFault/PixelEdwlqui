@@ -24,7 +24,7 @@ function UploadButton({ text, variant, color, uploadExtractor }) {
     <div>
       <Button variant={variant} color={color} component={"label"}>
         {text}
-        <input type={"file"} style={{ display: "none" }} onChange={handleUpload}/>
+        <input type="file" style={{ display: "none" }} onChange={handleUpload}/>
       </Button>
     </div>
   );
